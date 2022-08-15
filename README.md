@@ -22,3 +22,13 @@ POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+### animals
+
+POST /animals
+
+Possivel criado lista de animais, necessário passar userId do login e token
+
+GET/animals
+
+Possivel buscar toda lista de animais

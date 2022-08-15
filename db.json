@@ -6,6 +6,25 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "moises@moises.com",
+      "password": "$2a$10$ADhcP/yMphQXR1.37T/bYuz8iBc04XTdi2uVFeAAkaOcnmXOc/ea2",
+      "id": 2
+    }
+  ],
+  "animals": [
+    {
+      "type": "cachorro",
+      "name": "caramelo",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "type": "cachorro",
+      "name": "quatro patas",
+      "userId": 2,
+      "id": 2
     }
   ]
 }
