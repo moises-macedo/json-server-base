@@ -2,7 +2,7 @@ const jsonServer = require("json-server");
 const auth = require("json-server-auth");
 const cors = require("cors");
 const port = process.env.PORT || 3001;
-const ip = require('ip').address();
+// const ip = require('ip').address();
 
 const app = jsonServer.create();
 const router = jsonServer.router("db.json");
@@ -20,5 +20,5 @@ app.use(auth);
 app.use(router);
 
 
-app.listen(port, console.log(`Server started in http://localhost:${port} or http//:${ip}:${port}`))
+app.listen(port, console.log(`Server started in http://localhost:${port}`))
 /* A senha do Kenzinho é 123456 */
